@@ -18,7 +18,7 @@ import javax.sql.DataSource;
  */
 @Stateless
 public class LoginServiceBean implements LoginServiceBeanRemote {
-	@Resource(name = "sxadm")
+	@Resource(mappedName = "sxadm")
 	private DataSource sxadm;
 
 	@RolesAllowed("admin")
