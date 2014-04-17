@@ -35,7 +35,7 @@ public class MainFilter implements Filter {
 	@EJB
 	private LoginServiceBeanRemote loginServiceBean;
 
-	@Resource(name = "sxadm")
+	@Resource(mappedName = "sxadm")
 	private DataSource sxadm;
 	
 	private static final boolean debug = true;
