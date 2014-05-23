@@ -34,7 +34,6 @@ public class LoginServiceBean implements LoginServiceBeanRemote {
 	@Override
 	public User loginByUUID(String uuid) {
 		Connection con=null;
-System.out.print("uuid: " + uuid);	
 		try {
 			con = sxadm.getConnection();
 			return LoginHelper.loginByUUID(con, uuid);
