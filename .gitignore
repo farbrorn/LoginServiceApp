@@ -1,3 +1,9 @@
 /nbproject/private/
 /LoginService-ejb/nbproject/private/
 /LoginService-war/nbproject/private/
+/LoginService-ejb/build/
+/LoginService-ejb/dist/
+/build/
+/LoginService-war/dist/
+/LoginService-war/build/
+/dist/
